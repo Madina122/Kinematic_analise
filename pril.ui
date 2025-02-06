@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Window</class>
+ <widget class="QMainWindow" name="Window">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1391</width>
+    <height>862</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>12</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QSplitter" name="splitter_2">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QGroupBox" name="groupBox">
+       <property name="styleSheet">
+        <string notr="true">background-color: #201647;</string>
+       </property>
+       <property name="title">
+        <string/>
+       </property>
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>20</y>
+          <width>151</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>20</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: white;</string>
+        </property>
+        <property name="text">
+         <string>Kinematic 4</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>600</x>
+          <y>20</y>
+          <width>731</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="QPushButton" name="pushButton">
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: white; border:1px solid white; height:31;</string>
+           </property>
+           <property name="text">
+            <string>Импорт</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_3">
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: white; border:1px solid white; height:31;</string>
+           </property>
+           <property name="text">
+            <string>Экспорт</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_2">
+           <property name="font">
+            <font>
+             <pointsize>12</pointsize>
+            </font>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">color: white; border:1px solid white; height:31;</string>
+           </property>
+           <property name="text">
+            <string>Настройки</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>260</x>
+          <y>30</y>
+          <width>51</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:#e8e9ea;</string>
+        </property>
+        <property name="text">
+         <string>v1.0</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="layoutWidget">
+       <layout class="QHBoxLayout" name="horizontalLayout_7">
+        <item>
+         <widget class="Line" name="line_14">
+          <property name="styleSheet">
+           <string notr="true">border:none;</string>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="Line" name="line_13">
+          <property name="styleSheet">
+           <string notr="true">border:none;</string>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="Line" name="line_10">
+          <property name="styleSheet">
+           <string notr="true">border:none;</string>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="Line" name="line_8">
+          <property name="styleSheet">
+           <string notr="true">border:none;</string>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QSplitter" name="splitter">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <widget class="QWidget" name="layoutWidget">
+           <layout class="QVBoxLayout" name="verticalLayout_5">
+            <item>
+             <widget class="QTableView" name="tableView"/>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_6">
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: #D6D4DB; height:31;</string>
+              </property>
+              <property name="text">
+               <string>Визуализация данных</string>
+              </property>
+              <property name="autoRepeat">
+               <bool>false</bool>
+              </property>
+              <property name="autoRepeatDelay">
+               <number>300</number>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="Line" name="line_12">
+           <property name="styleSheet">
+            <string notr="true">border:none;</string>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+          </widget>
+          <widget class="Line" name="line_11">
+           <property name="styleSheet">
+            <string notr="true">border:none;</string>
+           </property>
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+          </widget>
+          <widget class="QWidget" name="layoutWidget">
+           <layout class="QVBoxLayout" name="verticalLayout_4">
+            <item>
+             <widget class="QGraphicsView" name="graphicsView"/>
+            </item>
+            <item>
+             <layout class="QHBoxLayout" name="horizontalLayout_4">
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout">
+                <item>
+                 <layout class="QVBoxLayout" name="verticalLayout">
+                  <item>
+                   <widget class="QCheckBox" name="checkBox">
+                    <property name="font">
+                     <font>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QCheckBox::indicator {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #201647; /* Цвет рамки */
+    border-radius: 3px; /* Закругление углов */
+}
+QCheckBox::indicator:checked {
+    background-color:#201647; /* Цвет заливки при отметке */
+}
+</string>
+                    </property>
+                    <property name="text">
+                     <string>Начало эксперимента [FG]</string>
+                    </property>
+                    <property name="checked">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QCheckBox" name="checkBox_2">
+                    <property name="font">
+                     <font>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QCheckBox::indicator {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #201647; /* Цвет рамки */
+    border-radius: 3px; /* Закругление углов */
+}
+QCheckBox::indicator:checked {
+    background-color:#201647; /* Цвет заливки при отметке */
+}
+</string>
+                    </property>
+                    <property name="text">
+                     <string>Подъем кисти </string>
+                    </property>
+                    <property name="checked">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QCheckBox" name="checkBox_3">
+                    <property name="font">
+                     <font>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QCheckBox::indicator {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #201647; /* Цвет рамки */
+    border-radius: 3px; /* Закругление углов */
+}
+QCheckBox::indicator:checked {
+    background-color:#201647; /* Цвет заливки при отметке */
+}
+</string>
+                    </property>
+                    <property name="text">
+                     <string>Апертура захвата (max) [GA]</string>
+                    </property>
+                    <property name="checked">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                  <item>
+                   <widget class="QCheckBox" name="checkBox_5">
+                    <property name="font">
+                     <font>
+                      <pointsize>12</pointsize>
+                     </font>
+                    </property>
+                    <property name="styleSheet">
+                     <string notr="true">QCheckBox::indicator {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #201647; /* Цвет рамки */
+    border-radius: 3px; /* Закругление углов */
+}
+QCheckBox::indicator:checked {
+    background-color:#201647; /* Цвет заливки при отметке */
+}
+</string>
+                    </property>
+                    <property name="text">
+                     <string>Подъем объекта</string>
+                    </property>
+                    <property name="checked">
+                     <bool>true</bool>
+                    </property>
+                   </widget>
+                  </item>
+                 </layout>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_2">
+                <item>
+                 <widget class="QCheckBox" name="checkBox_6">
+                  <property name="font">
+                   <font>
+                    <pointsize>12</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QCheckBox::indicator {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #201647; /* Цвет рамки */
+    border-radius: 3px; /* Закругление углов */
+}
+QCheckBox::indicator:checked {
+    background-color:#201647; /* Цвет заливки при отметке */
+}
+</string>
+                  </property>
+                  <property name="text">
+                   <string>Опускание объекта</string>
+                  </property>
+                  <property name="checked">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QCheckBox" name="checkBox_7">
+                  <property name="font">
+                   <font>
+                    <pointsize>12</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QCheckBox::indicator {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #201647; /* Цвет рамки */
+    border-radius: 3px; /* Закругление углов */
+}
+QCheckBox::indicator:checked {
+    background-color:#201647; /* Цвет заливки при отметке */
+}
+</string>
+                  </property>
+                  <property name="text">
+                   <string>Размыкание пальцев [GA]</string>
+                  </property>
+                  <property name="checked">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QCheckBox" name="checkBox_11">
+                  <property name="font">
+                   <font>
+                    <pointsize>12</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QCheckBox::indicator {
+    border: none;
+	background-color: transparent;
+}
+QCheckBox::indicator:checked {
+    background-color:transparent;
+}
+</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="checked">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QCheckBox" name="checkBox_12">
+                  <property name="font">
+                   <font>
+                    <pointsize>12</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QCheckBox::indicator {
+    border: none;
+	background-color: transparent;
+}
+QCheckBox::indicator:checked {
+    background-color:transparent;
+}
+</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                  <property name="checked">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <widget class="Line" name="line_2">
+                <property name="orientation">
+                 <enum>Qt::Vertical</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <layout class="QVBoxLayout" name="verticalLayout_3">
+                <item>
+                 <widget class="QCheckBox" name="checkBox_9">
+                  <property name="font">
+                   <font>
+                    <pointsize>12</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QCheckBox::indicator {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #201647; /* Цвет рамки */
+    border-radius: 3px; /* Закругление углов */
+}
+QCheckBox::indicator:checked {
+    background-color:#201647; /* Цвет заливки при отметке */
+}
+</string>
+                  </property>
+                  <property name="text">
+                   <string>Открытие очков</string>
+                  </property>
+                  <property name="checked">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QCheckBox" name="checkBox_10">
+                  <property name="font">
+                   <font>
+                    <pointsize>12</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QCheckBox::indicator {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #201647; /* Цвет рамки */
+    border-radius: 3px; /* Закругление углов */
+}
+QCheckBox::indicator:checked {
+    background-color:#201647; /* Цвет заливки при отметке */
+}
+</string>
+                  </property>
+                  <property name="text">
+                   <string>Апертура захвата</string>
+                  </property>
+                  <property name="checked">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QCheckBox" name="checkBox_4">
+                  <property name="font">
+                   <font>
+                    <pointsize>12</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QCheckBox::indicator {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #201647; /* Цвет рамки */
+    border-radius: 3px; /* Закругление углов */
+}
+QCheckBox::indicator:checked {
+    background-color:#201647; /* Цвет заливки при отметке */
+}
+</string>
+                  </property>
+                  <property name="text">
+                   <string>Положение кисти (Z) </string>
+                  </property>
+                  <property name="checked">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QCheckBox" name="checkBox_8">
+                  <property name="font">
+                   <font>
+                    <pointsize>12</pointsize>
+                   </font>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">QCheckBox::indicator {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #201647; /* Цвет рамки */
+    border-radius: 3px; /* Закругление углов */
+}
+QCheckBox::indicator:checked {
+    background-color:#201647; /* Цвет заливки при отметке */
+}
+</string>
+                  </property>
+                  <property name="text">
+                   <string>Положение объекта (Z)</string>
+                  </property>
+                  <property name="checked">
+                   <bool>true</bool>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </item>
+            <item>
+             <widget class="QPushButton" name="pushButton_7">
+              <property name="font">
+               <font>
+                <pointsize>12</pointsize>
+               </font>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">background-color: #D6D4DB;</string>
+              </property>
+              <property name="text">
+               <string>Применить фильтры</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+        <item>
+         <widget class="Line" name="line">
+          <property name="styleSheet">
+           <string notr="true">border:none;</string>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="Line" name="line_4">
+          <property name="styleSheet">
+           <string notr="true">border:none;</string>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="Line" name="line_6">
+          <property name="styleSheet">
+           <string notr="true">border:none;</string>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="Line" name="line_7">
+          <property name="styleSheet">
+           <string notr="true">border:none;</string>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
